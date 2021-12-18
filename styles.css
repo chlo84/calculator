@@ -1,4 +1,29 @@
 body{
     background-color: chocolate;
+    margin-left: auto;
+    margin: 0 0 auto 0;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator-container{
+    border-radius: 10px;
+    background-color: rgb(78, 33, 17);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+}
+
+.output{
+    background-color: green;
+    color: honeydew;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 16px;
 
 }
