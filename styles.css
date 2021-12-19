@@ -27,3 +27,9 @@ body{
     margin-bottom: 16px;
 
 }
+
+.button-grid{
+    display: grid;
+    margin-left: center;
+    margin: 8px;
+}
