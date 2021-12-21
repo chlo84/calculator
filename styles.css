@@ -1,24 +1,25 @@
 body{
-    background-color: chocolate;
+    background-color: purple;
     margin-left: auto;
     margin: 0 0 auto 0;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
 .calculator-container{
-    border-radius: 10px;
-    background-color: rgb(78, 33, 17);
+    border-radius: 70px;
+    border: black;
+    background-color: rgb(125, 47, 199);
     width: 300px;
     height: 400px;
     padding: 20px;
 }
 
 .output{
-    background-color: green;
-    color: honeydew;
+    background-color: whitesmoke;
+    color: black;
     border-radius: 10px;
     display: flex;
     justify-content: flex-end;
@@ -31,5 +32,29 @@ body{
 .button-grid{
     display: grid;
     margin-left: center;
-    margin: 8px;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px all;
+    height: 10px;
+    
+}
+
+button{
+    background: lightslategray;
+    padding: 8px;
+    margin: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.2s all;
+    height: 40px;
+    box-shadow: 2px 2px 10px black;
+}
+button:hover{
+    opacity: 1;
+    box-shadow: 0 0 10px red;
+
+}
+
+.clearButton{
+    background: red;
+
 }
