@@ -5,6 +5,7 @@ const buttons = document.querySelectorAll('.number')
 const clear = document.querySelector('#clear')
 const equal = document.querySelector('#equals')
 
+
 for(let i = 0; i < buttons.length; i++){
     buttons[i].addEventListener('click', () =>{
         console.log('button was clicked')
@@ -18,10 +19,11 @@ function clearAll(){
 }
 clear.addEventListener('click', clearAll)
 
-// write a function that calculates the string that is on the screen.
+// Write a function that calculates the string that is on the screen.
 // Add an EventListener on the equal button that runs the calculation function.
 
-function calculates(){
-    output.innerText = ''
-}
-clear.addEventListener('click', calculates)
+// function calculates(){
+    
+//     output.innerText = ''
+// }
+// equal.addEventListener('click', calculates)
